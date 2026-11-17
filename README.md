@@ -30,5 +30,3 @@ Before leaving, take a closer look around the bottom area of the third layer. Tr
 Your choices lead to two different possible endings.
 
 Enjoy the experience, and remember to question what is real ~
-
-<img width="468" height="654" alt="image" src="https://github.com/user-attachments/assets/8d1df1a0-11e2-41ba-b050-dcc67864bbd3" />
