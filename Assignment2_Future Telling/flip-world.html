@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Are... Awake?</title>
+    <link rel="stylesheet" href="opening-flip.css">
+</head>
+
+<audio id="master-bgm" src="assets/audio/TIME.mp3" preload="auto" loop></audio>
+<script src="script.js"></script>
+
+<body class="flip-page">
+
+    <main class="page-shell">
+
+        <header class="page-topline">
+            <span>DREAM ARCHITECTURE</span>
+            <span>UNKNOWN STATE</span>
+        </header>
+
+        <section class="opening-layout flip-layout">
+
+            <div class="opening-copy">
+
+                <p class="eyebrow">SYSTEM STATUS: UNCERTAIN</p>
+
+                <h1 class="flip-title">
+                    You are...
+                    <span>awake?</span>
+                </h1>
+
+                <p class="opening-subtitle">
+                    Is this where the dream ends?
+                </p>
+
+                <p class="opening-description">
+                    Everything seems familiar. The world looks almost
+                    the same. But something is not quite right.
+                    Perhaps waking up was just another dream.
+                </p>
+
+                <a class="enter-link return-link" href="layer1.html">
+                    <span>ENTER THE DREAM</span>
+                    <span class="enter-arrow">↗</span>
+                </a>
+
+            </div>
+
+            <div class="opening-instruments flip-instruments">
+
+                <!-- The same spinning top, now in an inverted world -->
+                <div class="instrument top-instrument">
+
+                    <div class="top-display">
+                        <div class="top-orbit"></div>
+                        <div class="top-shadow"></div>
+
+                        <div class="spinning-top" aria-hidden="true">
+                            <div class="top-finial"></div>
+                            <div class="top-stem"></div>
+
+                            <div class="top-body">
+                                <div class="top-band"></div>
+                            </div>
+
+                            <div class="top-tip"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- A blurred trace of the original clock -->
+                <div class="instrument ghost-clock-instrument">
+
+                    <div class="ghost-clock" aria-hidden="true">
+                        <div class="ghost-clock-ring"></div>
+                        <div class="ghost-hour"></div>
+                        <div class="ghost-minute"></div>
+                        <div class="ghost-center"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer class="page-footer">
+            <span>ARE YOU REALLY AWAKE?</span>
+            <span>?? — THE OTHER SIDE</span>
+        </footer>
+
+    </main>
+
+</body>
+</html>
